@@ -5,13 +5,34 @@
   --textbox-background-color: #eaeaea;
   --title-link-font-color: white;
   --standalone-title-font-color: #244ba0;
-  --paragraph-font: "Ubuntu Mono", monospace;
+  --default-font: "Ubuntu Mono", monospace;
   --title-font: "Fugaz One", cursive;
+}
+
+body {
+  font-family: var(--default-font);
 }
 
 h1 {
   font-family: var(--title-font);
 }
-p {
-  font-family: var(--paragraph-font);
+
+.hero {
+  background-color: var(--textbox-background-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero h3 {
+  font-size: 24px;
+  font-weight: normal;
 }
