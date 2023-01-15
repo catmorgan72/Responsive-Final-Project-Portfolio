@@ -1,0 +1,17 @@
+:root {
+  --title-background-color: #254ba0;
+  --link-background-color: #17ace4;
+  --upper-toolbar-color: #404040;
+  --textbox-background-color: #eaeaea;
+  --title-link-font-color: white;
+  --standalone-title-font-color: #244ba0;
+  --paragraph-font: "Ubuntu Mono", monospace;
+  --title-font: "Fugaz One", cursive;
+}
+
+h1 {
+  font-family: var(--title-font);
+}
+p {
+  font-family: var(--paragraph-font);
+}
