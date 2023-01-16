@@ -1,6 +1,6 @@
 :root {
   --title-background-color: #254ba0;
-  --link-background-color: #17ace4;
+  --link-color: #17ace4;
   --upper-toolbar-color: #404040;
   --textbox-background-color: #eaeaea;
   --title-link-font-color: white;
@@ -13,8 +13,13 @@ body {
   font-family: var(--default-font);
 }
 
-h1 {
+h1,
+.brand-name {
   font-family: var(--title-font);
+}
+
+.navigation-bar {
+  background-color: var(--upper-toolbar-color);
 }
 
 .hero {
