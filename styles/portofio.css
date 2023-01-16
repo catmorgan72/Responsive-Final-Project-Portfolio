@@ -28,6 +28,7 @@ h1,
   background-color: var(--secondary-background-color);
   text-align: center;
   padding: 160px 20px;
+  display: block;
 }
 
 .hero h1 {
@@ -42,6 +43,10 @@ h1,
 .hero h3 {
   font-size: 24px;
   font-weight: normal;
+}
+
+.project-info {
+  padding: 15px 7.5px;
 }
 
 .project-title {
@@ -66,4 +71,23 @@ h1,
   height: auto;
   padding: 50px;
   background-color: var(--secondary-background-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2,
+  h3 {
+    font-size: 35px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
