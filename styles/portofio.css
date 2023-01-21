@@ -28,11 +28,11 @@ h1,
   background-color: var(--secondary-background-color);
   text-align: center;
   padding: 160px 20px;
-  display: block;
 }
 
 .hero h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 .hero h2 {
@@ -42,11 +42,12 @@ h1,
 
 .hero h3 {
   font-size: 24px;
-  font-weight: normal;
+  font-weight: nomal;
+  line-height: 1.5;
 }
 
-.project-info {
-  padding: 15px 7.5px;
+.project-description {
+  padding: 120px 60px;
 }
 
 .project-title {
@@ -54,6 +55,10 @@ h1,
   border-radius: 4px;
   padding: 15px 20px;
   color: white;
+}
+
+.project-title h2 {
+  font-size: 20px;
 }
 
 .primary-link {
@@ -66,28 +71,33 @@ h1,
   color: white;
 }
 
-.img-fluid {
+.image-border {
   max-width: 100%;
   height: auto;
-  padding: 50px;
+  padding: 120px 60px;
   background-color: var(--secondary-background-color);
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 40px;
+  .hero h1 {
+    font-size: 44px;
+    line-height: 2;
   }
 
-  h2,
-  h3 {
+  .hero h2 {
     font-size: 35px;
   }
 
-  p {
-    text-align: center;
+  .hero h3 {
+    font-size: 20px;
   }
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
   }
 }
