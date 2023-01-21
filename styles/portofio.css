@@ -16,7 +16,8 @@ body {
 
 h1,
 .brand-name,
-.project-title {
+.project-title,
+.coding-title {
   font-family: var(--title-font-family);
 }
 
@@ -76,6 +77,20 @@ h1,
   height: auto;
   padding: 120px 60px;
   background-color: var(--secondary-background-color);
+}
+
+.hero-two {
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero-two h3 {
+  color: var(--secondary-font-color);
+}
+
+.coding-skills {
+  display: block;
+  list-style: none;
 }
 
 @media (max-width: 900px) {
