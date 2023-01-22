@@ -17,7 +17,7 @@ body {
 h1,
 .brand-name,
 .project-title,
-.coding-title {
+.secondary-title {
   font-family: var(--title-font-family);
 }
 
@@ -72,6 +72,17 @@ h1,
   color: white;
 }
 
+.contact-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
+  background: white;
+  border-color: var(--link-bachground-color);
+  color: var(--link-bachground-color);
+}
+
 .image-border {
   max-width: 100%;
   height: auto;
@@ -81,7 +92,7 @@ h1,
 
 .hero-two {
   text-align: center;
-  padding: 160px 20px;
+  padding: 50px 25px;
 }
 
 .hero-two h3 {
