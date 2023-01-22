@@ -104,6 +104,15 @@ h1,
   list-style: none;
 }
 
+footer {
+  color: var(--secondary-font-color);
+}
+
+.open-source {
+  color: var(--link-bachground-color);
+  list-style: none;
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 44px;
